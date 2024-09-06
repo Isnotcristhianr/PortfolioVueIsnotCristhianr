@@ -1,5 +1,15 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+//idioma
+import { useI18n } from 'vue-i18n'
+
+const { locale } = useI18n()
+
+const changeLanguage = (lang: string) => {
+  console.log('Cambiando idioma a: ', lang)
+  locale.value = lang
+}
+
 
 </script>
 
@@ -31,6 +41,18 @@ import { RouterLink, RouterView } from 'vue-router'
       />
     </svg>
   </label>
+
+  <div>
+  <label>
+    <input type="radio" name="lang" value="es" @click="changeLanguage('es')" checked /> Español
+  </label>
+  <label>
+    <input type="radio" name="lang" value="en" @click="changeLanguage('en')" /> English
+  </label>
+</div>
+
+
+  <p>{{ $t('greeting') }}</p>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
