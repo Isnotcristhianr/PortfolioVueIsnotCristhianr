@@ -3,30 +3,22 @@ import { RouterLink, RouterView } from 'vue-router'
 
 //components
 import NavBar from './components/navbar/NavBar.vue'
-
 </script>
 
 <template>
   <div>
-
     <NavBar />
 
+    <p>{{ $t('greeting') }}</p>
+    <header>
+      <div>
+        <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+        </nav>
+      </div>
+    </header>
 
-
-
-
-<p>{{ $t('greeting') }}</p>
-<header>
-  
-  <div >
-    
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
+    <RouterView />
   </div>
-</header>
-
-<RouterView />
-</div>
 </template>
