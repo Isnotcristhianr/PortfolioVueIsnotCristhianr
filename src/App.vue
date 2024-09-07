@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-
 //components
 import NavBar from './components/navbar/NavBar.vue'
+import HeroSection from './components/HeroSection.vue'
 </script>
 
 <template>
   <div>
     <NavBar />
+    <HeroSection />
 
     <p>{{ $t('greeting') }}</p>
     <header>

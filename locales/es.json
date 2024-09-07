@@ -1,5 +1,10 @@
 {
-    "greeting": "Hola",
+    "greeting": "Hey, soy",
+    "presentation": {
+      "intro": "+5 años de experiencia.",
+      "resalt": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación",
+      "outro": "de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo app y movil de impacto"
+    },
     "about": "Sobre mí",
     "projects": "Proyectos",
     "technologies": "Tecnologías",

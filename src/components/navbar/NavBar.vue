@@ -1,5 +1,9 @@
 <script setup lang="ts">
+//vue
 import { ref, computed } from 'vue'
+//router
+import { RouterLink } from 'vue-router'
+
 // Importamos el hook useI18n para manejar los idiomas
 import { useI18n } from 'vue-i18n'
 
@@ -29,7 +33,7 @@ const toggleTheme = () => {
 
 <template>
   <div>
-    <div class="navbar bg-base-100">
+    <div class="navbar glass fixed top-0 left-0 w-full z-10">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -52,7 +56,11 @@ const toggleTheme = () => {
             tabindex="0"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li><a>Homepage</a></li>
+            <li>
+              <a>
+                {{ $t('about') }}
+              </a>
+            </li>
             <li><a>Portfolio</a></li>
             <li><a>About</a></li>
           </ul>
@@ -60,7 +68,7 @@ const toggleTheme = () => {
       </div>
 
       <div class="navbar-center">
-        <a class="btn btn-ghost text-xl">
+        <RouterLink to="/" class="btn btn-ghost text-xl">
           <div>
             <img
               v-if="themeClass === 'night'"
@@ -69,12 +77,13 @@ const toggleTheme = () => {
             />
             <img v-else src="../../../src/assets/imgs/navbar/1.png" alt="logo-day" />
           </div>
-        </a>
+        </RouterLink>
       </div>
 
-      <div class="navbar-end ">
-        <div class="flex flex-col items-center md:flex-row md:items-center md:gap-2 md:text-center md:justify-center">
-
+      <div class="navbar-end">
+        <div
+          class="flex flex-col items-center md:flex-row md:items-center md:gap-2 md:text-center md:justify-center"
+        >
           <!-- Modo claro/oscuro -->
           <div class="btn btn-ghost">
             <label class="swap swap-rotate">

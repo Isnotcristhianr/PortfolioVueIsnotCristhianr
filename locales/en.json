@@ -1,5 +1,10 @@
 {
-    "greeting": "Hello",
+    "greeting": "Hey, I'm",
+    "presentation": {
+      "intro": "+5 years of experience.",
+      "resalt": "Information Technology Engineer, Software Developer and Programming content creator",
+      "outro": "from Ecuador, Ibarra 🇪🇨. Specialized in the development of impactful mobile and web applications."
+    },
     "about": "About me",
     "projects": "Projects",
     "technologies": "Technologies",
