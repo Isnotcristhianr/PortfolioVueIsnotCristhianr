@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 // Importamos el hook useI18n para manejar los idiomas
 import { useI18n } from 'vue-i18n'
 
@@ -11,10 +11,18 @@ const toggleLanguage = (event: Event) => {
   locale.value = isChecked ? 'es' : 'en'
 }
 
-// Computed property para determinar el tema
+// Coambio de tema
+const currentTheme = ref(document.documentElement.getAttribute('data-theme') || 'corporate')
+
 const themeClass = computed(() => {
-  return document.documentElement.classList.contains('theme-dark') ? 'theme-dark' : 'theme-light'
+  return currentTheme.value === 'night' ? 'night' : 'corporate'
 })
+
+// Función para cambiar el tema
+const toggleTheme = () => {
+  currentTheme.value = currentTheme.value === 'night' ? 'corporate' : 'night'
+  document.documentElement.setAttribute('data-theme', currentTheme.value)
+}
 
 </script>
 
@@ -52,17 +60,13 @@ const themeClass = computed(() => {
 
       <div class="navbar-center">
         <a class="btn btn-ghost text-xl">
-          <div v-bind:class="themeClass">
+          <div>
             <img
               v-if="themeClass === 'night'"
               src="../../../src/assets/imgs/navbar/2.png"
-              alt="logo"
+              alt="logo-night"
             />
-            <img
-              v-else
-              src="../../../src/assets/imgs/navbar/1.png"
-              alt="logo"
-            />
+            <img v-else src="../../../src/assets/imgs/navbar/1.png" alt="logo-day" />
           </div>
         </a>
       </div>
@@ -71,7 +75,7 @@ const themeClass = computed(() => {
         <!-- Modo claro/oscuro -->
         <div class="btn btn-ghost">
           <label class="swap swap-rotate">
-            <input type="checkbox" class="theme-controller" value="corporate" />
+            <input type="checkbox" class="theme-controller" value="corporate" @change="toggleTheme"/>
             <!-- sun icon -->
             <svg
               class="swap-off h-8 w-8 fill-current"

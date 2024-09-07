@@ -7,7 +7,11 @@ export default {
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Fira Sans', 'Comic Sans MS', 'Sans-serif'],
+      },
+    },
   },
   plugins: [
     //daisyUi
