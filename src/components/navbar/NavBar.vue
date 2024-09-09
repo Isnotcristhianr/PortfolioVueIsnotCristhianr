@@ -17,7 +17,7 @@ const toggleLanguage = (event: Event) => {
   locale.value = isChecked ? 'es' : 'en'
 }
 
-// Coambio de tema
+// Cambio de tema
 const currentTheme = ref(document.documentElement.getAttribute('data-theme') || 'corporate')
 
 const themeClass = computed(() => {
@@ -26,7 +26,7 @@ const themeClass = computed(() => {
 
 // Función para cambiar el tema
 const toggleTheme = () => {
-  currentTheme.value = currentTheme.value === 'night' ? 'corporate' : 'night'
+  currentTheme.value = currentTheme.value === 'night' ? 'winter' : 'night'
   document.documentElement.setAttribute('data-theme', currentTheme.value)
 }
 </script>
@@ -68,11 +68,11 @@ const toggleTheme = () => {
           <div>
             <img
               v-if="themeClass === 'night'"
-              src="../../../public/imgs/navbar/2.png"
+              src="/imgs/navbar/2.png"
               alt="logo-night"
               class="h-5"
             />
-            <img v-else src="../../../public/imgs/navbar/1.png" alt="logo-day" class="h-5" />
+            <img v-else src="/imgs/navbar/1.png" alt="logo-day" class="h-5" />
           </div>
         </RouterLink>
       </div>
