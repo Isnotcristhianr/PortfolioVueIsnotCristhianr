@@ -1,9 +1,14 @@
 {
+    "position": "Disponible para trabajar",
     "greeting": "Hey, soy",
     "presentation": {
       "intro": "+5 años de experiencia.",
       "resalt": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación",
-      "outro": "de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo app y movil de impacto"
+      "outro": "de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo web y movil de impacto"
+    },
+    "actionsHero": {
+      "hire": "Contáctame",
+      "cv": "Descargar CV"
     },
     "about": "Sobre mí",
     "projects": "Proyectos",

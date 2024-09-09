@@ -19,7 +19,7 @@ export default {
     require('daisyui',)
   ],
   daisyui: {
-    themes: ["corporate", "night"],
+    themes: ["winter", "night"],
   },
 }
 

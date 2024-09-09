@@ -33,7 +33,7 @@ const toggleTheme = () => {
 
 <template>
   <div>
-    <div class="navbar glass fixed top-0 left-0 w-full z-10">
+    <div class="navbar glass fixed top-0 left-0 w-full z-10 rounded">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -56,11 +56,7 @@ const toggleTheme = () => {
             tabindex="0"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>
-                {{ $t('about') }}
-              </a>
-            </li>
+            <li><a>Homepage</a></li>
             <li><a>Portfolio</a></li>
             <li><a>About</a></li>
           </ul>
@@ -68,14 +64,15 @@ const toggleTheme = () => {
       </div>
 
       <div class="navbar-center">
-        <RouterLink to="/" class="btn btn-ghost text-xl">
+        <RouterLink to="/" class="btn btn-ghost">
           <div>
             <img
               v-if="themeClass === 'night'"
-              src="../../../src/assets/imgs/navbar/2.png"
+              src="../../../public/imgs/navbar/2.png"
               alt="logo-night"
+              class="h-5"
             />
-            <img v-else src="../../../src/assets/imgs/navbar/1.png" alt="logo-day" />
+            <img v-else src="../../../public/imgs/navbar/1.png" alt="logo-day" class="h-5" />
           </div>
         </RouterLink>
       </div>
