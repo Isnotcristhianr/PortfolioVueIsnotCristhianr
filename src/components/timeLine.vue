@@ -14,7 +14,7 @@ import { Icon } from '@iconify/vue'
             <div class="flex flex-col sm:flex-row sm:items-start">
                 <div class="flex-shrink-0 w-56">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                        class="absolute w-3 h-3 bg-secondary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
                     ></div>
                     <h3 class="text-lg font-semibold text-secondary">
                         {{ $t('exp1.title') }}
@@ -27,7 +27,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
                         {{ $t('exp1.description') }}
                     </p>
                 </div>
@@ -37,7 +37,7 @@ import { Icon } from '@iconify/vue'
             <div class="flex flex-col sm:flex-row sm:items-start">
                 <div class="flex-shrink-0 w-56">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                        class="absolute w-3 h-3 bg-secondary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
                     ></div>
                     <h3 class="text-lg font-semibold text-secondary">
                         {{ $t('exp2.title') }}
@@ -50,7 +50,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
                         {{ $t('exp2.description') }}
                     </p>
                 </div>
@@ -60,7 +60,7 @@ import { Icon } from '@iconify/vue'
             <div class="flex flex-col sm:flex-row sm:items-start">
                 <div class="flex-shrink-0 w-56">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                        class="absolute w-3 h-3 bg-secondary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
                     ></div>
                     <h3 class="text-lg font-semibold text-secondary">
                         {{ $t('exp3.title') }}
@@ -73,7 +73,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
                         {{ $t('exp3.description') }}
                     </p>
                 </div>
@@ -83,7 +83,7 @@ import { Icon } from '@iconify/vue'
             <div class="flex flex-col sm:flex-row sm:items-start">
                 <div class="flex-shrink-0 w-56">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                        class="absolute w-3 h-3 bg-secondary rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
                     ></div>
                     <h3 class="text-lg font-semibold text-secondary">
                         {{ $t('exp4.title') }}
@@ -96,7 +96,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
                         {{ $t('exp4.description') }}
                     </p>
                 </div>
