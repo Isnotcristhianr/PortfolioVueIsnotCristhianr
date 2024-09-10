@@ -3,6 +3,7 @@
 import NavBar from './components/navbar/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import timeLine from './components/timeLine.vue'
+import ProyectsDev from './components/ProyectsDev.vue';
 
 
 </script>
@@ -21,6 +22,9 @@ import timeLine from './components/timeLine.vue'
        
         <!-- experience -->
         <timeLine />
+
+        <!-- proyects -->
+        <ProyectsDev />
       </div>
     </main>
   </div>

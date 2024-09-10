@@ -4,7 +4,7 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-<div class="max-w-screen-lg mx-auto pl-4 pr-4">
+<div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
     <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
         <Icon icon="pajamas:work" width="32" height="32" class="mr-2" />
         {{ $t('title1') }}
