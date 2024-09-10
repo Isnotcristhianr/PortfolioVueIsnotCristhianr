@@ -1,20 +1,38 @@
 {
-    "position": "Open to work",
-    "greeting": "Hey, I'm",
-    "presentation": {
-      "intro": "+5 years of experience.",
-      "resalt": "Information Technology Engineer, Software Developer and Programming content creator",
-      "outro": "from Ecuador, Ibarra 🇪🇨. Specialized in the development of impactful mobile and web applications."
-    },
-    "actionsHero": {
-      "hire": "Hire me",
-      "cv": "Download CV"
-    },
-    "about": "About me",
-    "projects": "Projects",
-    "technologies": "Technologies",
-    "services": "Services",
-    "certificates": "Certificates",
-    "contact": "Contact"
-  }
-  
+  "position": "Open to work",
+  "greeting": "Hey, I'm",
+  "presentation": {
+    "intro": "+5 years of experience.",
+    "resalt": "Information Technology Engineer, Software Developer and Programming content creator",
+    "outro": "from Ecuador, Ibarra 🇪🇨. Specialized in the development of impactful mobile and web applications."
+  },
+  "actionsHero": {
+    "hire": "Hire me",
+    "cv": "Download CV"
+  },
+  "title1": "Work experience",
+  "exp1":{
+    "title": "Software Developer",
+    "company": "Freelance",
+    "date": "Currently...",
+    "description": "Responsible for creating and optimizing web and mobile applications. Improving user experience and process efficiency. Implementation of continuous production with A/B testing."
+  },
+  "exp2":{
+    "title": "Mobile Developer",
+    "company": "SwapMe",
+    "date": "2023 - Currently...",
+    "description": "Development of mobile applications with hybrid and native technologies. Implementation of RESTful services, Auth0, Storage. Integration of third-party services such as Firebase and deployment in application stores (Google Play Store, Apple Store)."
+  },
+  "exp3":{
+    "title": "CTI - UX/UI Designer",
+    "company": "Agroindustrias Equatorial",
+    "date": "2021 - Currently...",
+    "description": "Design of user interfaces and user experience for web and mobile applications. Creation of prototypes and usability tests. Implementation of responsive design and accessibility."
+  },
+  "about": "About me",
+  "projects": "Projects",
+  "technologies": "Technologies",
+  "services": "Services",
+  "certificates": "Certificates",
+  "contact": "Contact"
+}

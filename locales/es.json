@@ -1,20 +1,44 @@
 {
-    "position": "Disponible para trabajar",
-    "greeting": "Hey, soy",
-    "presentation": {
-      "intro": "+5 años de experiencia.",
-      "resalt": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación",
-      "outro": "de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo web y movil de impacto"
-    },
-    "actionsHero": {
-      "hire": "Contáctame",
-      "cv": "Descargar CV"
-    },
-    "about": "Sobre mí",
-    "projects": "Proyectos",
-    "technologies": "Tecnologías",
-    "services": "Servicios",
-    "certificates": "Certificados",
-    "contact": "Contacto"
-  }
-  
+  "position": "Disponible para trabajar",
+  "greeting": "Hey, soy",
+  "presentation": {
+    "intro": "+5 años de experiencia.",
+    "resalt": "Ingeniero en Tecnologías de la Información, Desarrollador de Software y Creeador de contenido de programación",
+    "outro": "de Ecuador, Ibarra 🇪🇨. Especializado en el desarrollo web y movil de impacto"
+  },
+  "actionsHero": {
+    "hire": "Contáctame",
+    "cv": "Descargar CV"
+  },
+  "title1": "Experiencia laboral",
+  "exp1": {
+    "title": "Desarrollador de Software",
+    "company": "Freelance",
+    "date": "Actualmente...",
+    "description": "Responsable de creación y optmización de aplicaciones web y moviles. Mejorando la experiencia de usuario y la eficiencia de los procesos. Implementación  a producción continbua con A/B testing"
+  },
+  "exp2": {
+    "title": "Desarrollador Movil",
+    "company": "SwapMe",
+    "date": "2023 - Actualmente...",
+    "description": "Desarrollo de aplicaciones moviles con tecnologías híbridas y nativas. Implementación de servicios RESTful, Auth0, Storage. Integración de servicios de terceros como Firebase y despliegue en tiendas de aplicaciones (Google Play Store, Apple Store)"
+  },
+  "exp3": {
+    "title":"CTI - UX/UI Designer",
+    "company": "Agroindustrias Equatorial",
+    "date": "2021 - Actualmente...",
+    "description": "Diseño de interfaces de usuario y experiencia de usuario para aplicaciones web y moviles. Creación de prototipos y pruebas de usabilidad. Implementación de diseño responsivo y accesibilidad."
+  },
+  "exp4": {
+    "title": "Creador de Contenido",
+    "company": "Vreech, Hood.code, Isnotcristhian",
+    "date": "2020 - Actualmente...",
+    "description": "Creación de contenido educativo en programación y desarrollo de software. Tutoriales, cursos, tips y trucos para la comunidad de desarrolladores."
+  },
+  "about": "Sobre mí",
+  "projects": "Proyectos",
+  "technologies": "Tecnologías",
+  "services": "Servicios",
+  "certificates": "Certificados",
+  "contact": "Contacto"
+}

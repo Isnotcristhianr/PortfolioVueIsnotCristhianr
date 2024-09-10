@@ -1,70 +1,107 @@
+<script setup lang="ts">
+//icons
+import { Icon } from '@iconify/vue'
+</script>
+
 <template>
-  <div >
+<div class="max-w-screen-lg mx-auto pl-4 pr-4">
+    <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
+        <Icon icon="pajamas:work" width="32" height="32" class="mr-2" />
+        {{ $t('title1') }}
+    </h2>
     <ol class="relative border-s border-gray-200 dark:border-gray-700">
-      <li class="mb-10 ms-4">
-        <div
-          class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
-        ></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >February 2022</time
-        >
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-          Application UI code in Tailwind CSS
-        </h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar,
-          and pre-order E-commerce & Marketing pages.
-        </p>
-        <a
-          href="#"
-          class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-          >Learn more
-          <svg
-            class="w-3 h-3 ms-2 rtl:rotate-180"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-            /></svg
-        ></a>
-      </li>
-      <li class="mb-10 ms-4">
-        <div
-          class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
-        ></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >March 2022</time
-        >
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-          Marketing UI design in Figma
-        </h3>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          All of the pages and components are first designed in Figma and we keep a parity between
-          the two versions even as we update the project.
-        </p>
-      </li>
-      <li class="ms-4">
-        <div
-          class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
-        ></div>
-        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >April 2022</time
-        >
-        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-          E-Commerce UI code in Tailwind CSS
-        </h3>
-        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements built on top of
-          Tailwind CSS.
-        </p>
-      </li>
+        <li class="mb-10 ms-4">
+            <div class="flex flex-col sm:flex-row sm:items-start">
+                <div class="flex-shrink-0 w-56">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                    ></div>
+                    <h3 class="text-lg font-semibold text-secondary">
+                        {{ $t('exp1.title') }}
+                    </h3>
+                    <h4 class="text-md font-medium ">
+                            {{ $t('exp1.company') }}
+                    </h4>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                        {{ $t('exp1.date') }}
+                    </time>
+                </div>
+                <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                        {{ $t('exp1.description') }}
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="mb-10 ms-4">
+            <div class="flex flex-col sm:flex-row sm:items-start">
+                <div class="flex-shrink-0 w-56">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                    ></div>
+                    <h3 class="text-lg font-semibold text-secondary">
+                        {{ $t('exp2.title') }}
+                    </h3>
+                    <h4 class="text-md font-medium ">
+                            {{ $t('exp2.company') }}
+                    </h4>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                        {{ $t('exp2.date') }}
+                    </time>
+                </div>
+                <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                        {{ $t('exp2.description') }}
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="mb-10 ms-4">
+            <div class="flex flex-col sm:flex-row sm:items-start">
+                <div class="flex-shrink-0 w-56">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                    ></div>
+                    <h3 class="text-lg font-semibold text-secondary">
+                        {{ $t('exp3.title') }}
+                    </h3>
+                    <h4 class="text-md font-medium ">
+                            {{ $t('exp3.company') }}
+                    </h4>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                        {{ $t('exp3.date') }}
+                    </time>
+                </div>
+                <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                        {{ $t('exp3.description') }}
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="mb-10 ms-4">
+            <div class="flex flex-col sm:flex-row sm:items-start">
+                <div class="flex-shrink-0 w-56">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+                    ></div>
+                    <h3 class="text-lg font-semibold text-secondary">
+                        {{ $t('exp4.title') }}
+                    </h3>
+                    <h4 class="text-md font-medium ">
+                            {{ $t('exp4.company') }}
+                    </h4>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                        {{ $t('exp4.date') }}
+                    </time>
+                </div>
+                <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                        {{ $t('exp4.description') }}
+                    </p>
+                </div>
+            </div>
+        </li>
     </ol>
-  </div>
+</div>
 </template>
