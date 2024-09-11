@@ -14,7 +14,7 @@ import { Icon } from '@iconify/vue'
     <div class="bg-dark-800 rounded-lg p-6 mx-auto shadow-lg md:flex md:max-w-4xl">
         <div class="md:w-1/3">
             <img
-                src="/public/imgs/branding/manual de marca_Mesa de trabajo 1.jpg"
+                src="/imgs/proyectos/1.jpg"
                 alt="Proyecto SVGL"
                 class="rounded-lg w-full"
             />
