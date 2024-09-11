@@ -36,6 +36,12 @@
     "description": "Creation of educational content in programming and software development. Tutorials, courses, tips and tricks for the developer community. Member of the Google Ecuador developer community - GDG QUITO."
   },
   "title2": "Projects",
+  "proy": {
+    "1": {
+      "title": "Swapme - Clothing Exchange Application",
+      "description": "Mobile application for the exchange of clothing. Implementation of authentication services, storage, etc. Deployment in Google Play Store application stores."
+    }
+  },
   "about": "About me",
   "projects": "Projects",
   "technologies": "Technologies",

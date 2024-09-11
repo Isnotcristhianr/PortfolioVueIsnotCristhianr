@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue';
+
 </script>
 <template>
   <div class="hero bg-base-200 min-h-screen p-10 pl-10 pr-10">
