@@ -40,8 +40,29 @@
     "1": {
       "title": "Swapme - Clothing Exchange Application",
       "description": "Mobile application for the exchange of clothing. Implementation of authentication services, storage, etc. Deployment in Google Play Store application stores."
+    },
+    "6": {
+      "title": "Spiccy - Healty Food Recipes",
+      "description": "Healthy food recipes website. Implementation of contact form, recipe storage, etc. Deployment on the web."
+    },
+    "8": {
+      "title": "GifSearch - Gifs API",
+      "description": "Gifs API for consumption by web and mobile applications. Implementation of RESTful services, use of Giphy Api. Deployment on Vercel."
+    },
+    "14": {
+      "title": "Document Management PUCE-I",
+      "description": "Document management system for the Pontifical Catholic University of Ecuador - Ibarra. Implementation of reports to students enrolled and graduated from 1976 to 2023. Deployment on local servers."
+    },
+    "16": {
+      "title": "Blog - Ideas and Trends",
+      "description": "Blog of ideas and trends on any topic. Implementation of Authentication, comments and image uploads. Deployment on FirebaseHosting."
+    },
+    "25": {
+      "title": "Venturex - International Trade Platform",
+      "description": "Statistical queries of products from different countries. Implementation of global searches with data. Deployment on Vercel."
     }
   },
+  "seemore": "See more",
   "about": "About me",
   "projects": "Projects",
   "technologies": "Technologies",

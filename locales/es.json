@@ -40,8 +40,26 @@
     "1":{
       "title": "Swapme - Aplicación de intercambio de Prendas de Vestir",
       "description": "Aplicación movil para intercambio de prendas de vestir. Implementación de servicios de autenticación, almacenamiento, etc. Despliegue en tiendas de aplicaciones Google Play Store"
+    },
+    "6":{
+      "title": "Spiccy - Healty Food Recipes",
+      "description": "Pagina Web de recetas de comida saludable. Implementación de formulario de contacto, almacenamiento de recetas, etc. Despliegue en la web"
+    },
+    "14":{
+      "title": "Gestion Documental PUCE-I",
+      "description": "Sistema de gestión documental para la Pontificia Universidad Católica del Ecuador - Ibarra. Implementación de reportes a estudiantes matriculados y egresados desde 1976 hasta 2023. Despliegue en servidores locales"
+    },
+    "16":{
+      "title": "Blog - Ideas y Tendencias",
+      "description": "Blog de ideas y tendencias de cualquiero tema,. Implementación de Autenticacion, comentarios y subida de imagenes. Despliegue en FirebaseHosting"
+    },
+    "25":{
+      "title": "Venturex - Plataforma de Comercio Internacional",
+      "description": "Consultas estadísticas de productos de diferentes paises. Implementación de busquedas globales con datos. Despliegue en Vercel"
     }
+    
   },
+  "seemore": "Ver más",
   "about": "Sobre mí",
   "projects": "Proyectos",
   "technologies": "Tecnologías",

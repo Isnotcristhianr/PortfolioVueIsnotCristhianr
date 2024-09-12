@@ -18,7 +18,24 @@ const techIcons: Record<string, string> = {
   Flutter: 'logos:flutter',
   Dart: 'logos:dart',
   Firebase: 'logos:firebase',
-  Playstore: 'mage:playstore'
+  Playstore: 'mage:playstore',
+  Html: 'logos:html-5',
+  Css: 'logos:css-3',
+  Js: 'logos:javascript',
+  Jquery: 'devicon:jquery',
+  Bootstrap: 'logos:bootstrap',
+  VueJs: 'logos:vue',
+  Tailwind: 'vscode-icons:file-type-tailwind',
+  Headless: 'logos:headlessui-icon',
+  Vercel: 'vscode-icons:file-type-vercel',
+  Php: 'vscode-icons:file-type-php',
+  HighCharts: 'logos:highcharts',
+  Coidegniter: 'logos:codeigniter-icon',
+  Daisy: 'logos:daisyui',
+  Hosting: 'vscode-icons:file-type-light-firebasehosting',
+  React: 'logos:react',
+  Next: 'ri:nextjs-fill',
+  ShadcnUI: 'simple-icons:shadcnui'
 }
 </script>
 
@@ -31,7 +48,7 @@ const techIcons: Record<string, string> = {
         <img
           :src="imageUrl"
           :alt="altText"
-          class="rounded-lg w-full transition-transform duration-300 ease-in-out transform hover:scale-110 "
+          class="rounded-lg w-full transition-transform duration-300 ease-in-out transform hover:scale-110"
         />
       </div>
       <!-- Title -->
@@ -44,7 +61,7 @@ const techIcons: Record<string, string> = {
           <span
             v-for="(tech, index) in technologies"
             :key="index"
-            class="bg-neutral-content text-base-100 text-sm px-3 py-2 rounded-lg flex items-center space-x-2"
+            class="bg-neutral-content text-base-100 text-sm px-3 py-2 rounded-lg flex items-center space-x-3"
           >
             <!-- Mostrar ícono correspondiente si existe en el mapa de iconos -->
             <Icon v-if="techIcons[tech]" :icon="techIcons[tech]" class="w-5 h-5" />
@@ -52,7 +69,7 @@ const techIcons: Record<string, string> = {
           </span>
         </div>
         <!-- des -->
-        <p class="text-gray-400 text-sm mb-4 ">
+        <p class="text-gray-400 text-sm mb-4">
           {{ description }}
         </p>
         <!-- Enlaces -->

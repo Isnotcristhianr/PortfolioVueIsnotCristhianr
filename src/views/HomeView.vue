@@ -31,6 +31,48 @@ import { Icon } from '@iconify/vue'
           githubUrl="https://github.com/Isnotcristhianr/SwapMe---Code-0"
           previewUrl="https://play.google.com/store/apps/details?id=com.company.swapme&hl=es_EC"
         />
+        <ProyectsDev
+          :title="$t('proy.6.title')"
+          :description="$t('proy.6.description')"
+          :technologies="['Html', 'Css', 'Js', 'Jquery', 'Bootstrap']"
+          imageUrl="/imgs/proyectos/6.webp"
+          altText="spiccy"
+          githubUrl="https://github.com/Isnotcristhianr/spicy.github.io"
+          previewUrl="https://isnotcristhianr.me/spicy.github.io/"
+        />
+        <ProyectsDev
+          :title="$t('proy.16.title')"
+          :description="$t('proy.16.description')"
+          :technologies="['VueJs', 'Tailwind', 'Daisy','Firebase', 'Hosting']"
+          imageUrl="/imgs/proyectos/16.webp"
+          altText="gifSearch"
+          githubUrl="https://github.com/Isnotcristhianr/01-VueJS/tree/main/07_spa"
+          previewUrl="https://giftsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
+        />
+        <ProyectsDev
+          :title="$t('proy.14.title')"
+          :description="$t('proy.14.description')"
+          :technologies="['Php', 'Bootstrap', 'HighCharts', 'Coidegniter']"
+          imageUrl="/imgs/proyectos/14.webp"
+          altText="gifSearch"
+          githubUrl="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
+          previewUrl="www.pucei.edu.ec:441/DirectorioAplicaciones/"
+        />
+        <ProyectsDev
+          :title="$t('proy.25.title')"
+          :description="$t('proy.25.description')"
+          :technologies="['Next', 'Tailwind', 'ShadcnUI', 'Vercel']"
+          imageUrl="/imgs/proyectos/25.webp"
+          altText="gifSearch"
+          githubUrl=""
+          previewUrl="https://gifsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
+        />
+        <!-- ver mas -->
+        <div class="flex justify-center mt-5">
+          <router-link to="/proyectos" class="btn btn-info btn-wide btn-outline">
+            {{ $t('seemore') }}
+          </router-link>
+        </div>
       </div>
     </div>
   </main>
