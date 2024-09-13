@@ -64,6 +64,39 @@
   },
   "seemore": "See more Projects",
   "about": "About me",
+  "ab": {
+    "1": {
+      "p1": "My name is",
+      "p1on": "Cristhian Recalde",
+      "p2": " and I am",
+      "p2on": "Information Technology Engineer, Software Developer and Programming content creator",
+      "p3": "from Ecuador, Ibarra 🇪🇨. Specialized in the development of impactful mobile and web applications."
+    },
+    "2": {
+      "p1": "I have experience in",
+      "p1on": "Software Development, Mobile Development, Web Development, UX/UI Design, Content Creation, and more.",
+      "p2": "I am passionate about",
+      "p2on": "creating innovative solutions that improve the quality of life of people and the efficiency of processes."
+    },
+    "3": {
+      "p1": "I am currently",
+      "p1on": "looking for new challenges and opportunities to continue growing professionally.",
+      "p2": "I am open to",
+      "p2on": "collaborating on projects, sharing knowledge and learning new technologies."
+    },
+    "4": {
+      "p1": "As a content creator, I have my YouTube channel in the category of",
+      "p1on": "Software & Development",
+      "p2": ". My goal is to reduce the existing digital gap in my country",
+      "p2on": " Ecuador 🇪🇨 ",
+      "p3": "and contribute to improving the knowledge that many lack."
+    },
+    "5": {
+      "p1": "I am always looking for new challenges and opportunities to grow professionally. If you have a project in mind or just want to chat, don't hesitate to",
+      "p1on": "contact me",
+      "p2": ". I will be happy to hear from you."
+    }
+  },
   "projects": "Projects",
   "technologies": "Technologies",
   "services": "Services",

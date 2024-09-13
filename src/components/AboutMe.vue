@@ -1,43 +1,65 @@
 <template>
-  <section class="min-h-screen text-white p-8 flex flex-col justify-center">
+  <section class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
+    <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
+      <Icon icon="heroicons-solid:user" width="30" height="30" class="mr-2" />
+      {{ $t('about') }}
+    </h2>
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
       <div class="flex-1">
-        <div class="space-y-4 text-gray-300">
+        <div class="space-y-4">
           <p>
-            IsnotCrishitan es el reflejo de mi ilusión por crecer como profesional dentro de la
-            industria del desarrollo del software. Mi nombre es Cristhian, y soy un desarrollador
-            web y mobile en continua formación y me apasionan los retos.
+            {{ $t('ab.1.p1') }}
+            <label class="font-semibold">
+              {{ $t('ab.1.p1on') }}
+            </label>
+            {{ $t('ab.1.p2') }}
+            <label class="font-semibold">
+              {{ $t('ab.1.p2on') }}
+            </label>
+            {{ $t('ab.1.p3') }}
+            <label class="font-semibold">
+              {{ $t('ab.1.p3on') }}
+            </label>
+            {{ $t('ab.1.p4') }}
           </p>
           <p>
-            Algunos de mis éxitos incluyen
-            <span class="font-mono text-white"
-              >colaborar con [Empresa/Proyecto] para el desarrollo de [Logro Específico]</span
-            >. Aunque hoy está desaparecido fue un gran avance en el mundo del desarrollo web.
+            {{ $t('ab.2.p1') }}
+            <label class="font-semibold">
+              {{ $t('ab.2.p1on') }}
+            </label>
           </p>
           <p>
-            Como creador de contenido,
-            <span class="font-mono text-white"
-              >cuento con el canal de habla hispana más visto del mundo en la categoría de Software
-              & Game Development en [Plataforma]</span
-            >. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a
-            contenido de calidad.
+            {{ $t('ab.3.p1') }}
+            <label class="font-semibold">
+              {{ $t('ab.3.p1on') }}
+            </label>
+            {{ $t('ab.3.p2') }}
+          </p>
+          <p>
+            {{ $t('ab.4.p1') }}
+            <label class="font-semibold">
+              {{ $t('ab.4.p1on') }}
+            </label>
+            {{ $t('ab.4.p2') }}
+            <label class="font-semibold">
+              {{ $t('ab.4.p2on') }}
+            </label>
+            {{ $t('ab.4.p3') }}
           </p>
         </div>
       </div>
-      <div class="md:w-1/3">
-        <img src="" alt="Tu foto" class="rounded-lg shadow-2xl w-full" />
+      <div class="md:w-1/2">
+        <img
+          src="/imgs/meGoogle.jpg"
+          alt=""
+          class="rounded-lg shadow-2xl w-full transition-transform duration-300 ease-in-out transform hover:scale-110"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import Icon from '@iconify/vue'
+//icons
+import { Icon } from '@iconify/vue'
 </script>
-
-<style scoped>
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-    'Courier New', monospace;
-}
-</style>

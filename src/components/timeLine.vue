@@ -27,7 +27,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal">
                         {{ $t('exp1.description') }}
                     </p>
                 </div>
@@ -50,7 +50,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal">
                         {{ $t('exp2.description') }}
                     </p>
                 </div>
@@ -73,7 +73,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal">
                         {{ $t('exp3.description') }}
                     </p>
                 </div>
@@ -96,7 +96,7 @@ import { Icon } from '@iconify/vue'
                     </time>
                 </div>
                 <div class="sm:ml-4 mt-2 sm:mt-0 flex-grow">
-                    <p class="mb-4 text-base font-normal text-gray-400 dark:text-gray-400">
+                    <p class="mb-4 text-base font-normal">
                         {{ $t('exp4.description') }}
                     </p>
                 </div>

@@ -36,31 +36,62 @@
     "description": "Creación de contenido educativo en programación y desarrollo de software. Tutoriales, cursos, tips y trucos para la comunidad de desarrolladores. Perteneciente de la comunidad de desaarrolladores de Google Ecuador - GDG QUITO"
   },
   "title2": "Proyectos",
-  "proy":{ 
-    "1":{
+  "proy": {
+    "1": {
       "title": "Swapme - Aplicación de intercambio de Prendas de Vestir",
       "description": "Aplicación movil para intercambio de prendas de vestir. Implementación de servicios de autenticación, almacenamiento, etc. Despliegue en tiendas de aplicaciones Google Play Store"
     },
-    "6":{
+    "6": {
       "title": "Spiccy - Healty Food Recipes",
       "description": "Pagina Web de recetas de comida saludable. Implementación de formulario de contacto, almacenamiento de recetas, etc. Despliegue en la web"
     },
-    "14":{
+    "14": {
       "title": "Gestion Documental PUCE-I",
       "description": "Sistema de gestión documental para la Pontificia Universidad Católica del Ecuador - Ibarra. Implementación de reportes a estudiantes matriculados y egresados desde 1976 hasta 2023. Despliegue en servidores locales"
     },
-    "16":{
+    "16": {
       "title": "Blog - Ideas y Tendencias",
       "description": "Blog de ideas y tendencias de cualquiero tema,. Implementación de Autenticacion, comentarios y subida de imagenes. Despliegue en FirebaseHosting"
     },
-    "25":{
+    "25": {
       "title": "Venturex - Plataforma de Comercio Internacional",
       "description": "Consultas estadísticas de productos de diferentes paises. Implementación de busquedas globales con datos. Despliegue en Vercel"
     }
-    
   },
   "seemore": "Ver más Proyectos",
   "about": "Sobre mí",
+  "ab": {
+    "1": {
+      "p1": "Me llamo",
+      "p1on": "Cristhian Recalde",
+      "p2": " y soy",
+      "p2on": " Desarrollador de Software Web/Movil",
+      "p3": " , también conocido como",
+      "p3on": "IsnotCristhian",
+      "p4": " este es el reflejo de mi ilusión por crecer como profesional dentro de la industria del desarrollo a través de la creación de contenido."
+    },
+    "2": {
+      "p1": "Desde que comencé mi carrera profesional, he tenido la oportunidad de trabajar en",
+      "p1on": "diferentes proyectos y empresas"
+    },
+    "3": {
+      "p1": "Algunos de mis éxitos incluyen haber ganado",
+      "p1on": "Mención de Honor en el Torneo TuApp2023 con mi startUp SwapMe",
+      "p2": " actualemente sigo en aprendizaje y mejora, además pertenezco a la comunidad de desarrolladores de Google Quito."
+    },
+    "4": {
+      "p1": "Como creador de contenido, cuento con mi canal de Youtube en la categoría de",
+      "p1on": "Software & Development",
+      "p2": " . Mi objetivo es reducir la brecha digital existente en mi país",
+      "p2on": " Ecuador 🇪🇨 ",
+      "p3": "y contribuir a mejorar el conocimiento que muchos no tienen."
+    },
+    "5": {
+      "p1": "Siempre estoy buscando nuevos desafíos y oportunidades para crecer profesionalmente. Si tienes un proyecto en mente o simplemente quieres charlar, no dudes en",
+      "p1on": "contactarme",
+      "p2": ". Estaré encantado de escucharte."
+    }
+  },
   "projects": "Proyectos",
   "technologies": "Tecnologías",
   "services": "Servicios",

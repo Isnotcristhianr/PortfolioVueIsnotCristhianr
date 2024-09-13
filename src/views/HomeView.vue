@@ -44,7 +44,7 @@ import { Icon } from '@iconify/vue'
         <ProyectsDev
           :title="$t('proy.16.title')"
           :description="$t('proy.16.description')"
-          :technologies="['VueJs', 'Tailwind', 'Daisy','Firebase', 'Hosting']"
+          :technologies="['VueJs', 'Tailwind', 'Daisy', 'Firebase', 'Hosting']"
           imageUrl="/imgs/proyectos/16.webp"
           altText="gifSearch"
           githubUrl="https://github.com/Isnotcristhianr/01-VueJS/tree/main/07_spa"
@@ -77,10 +77,6 @@ import { Icon } from '@iconify/vue'
       </div>
       <!-- About Me -->
       <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
-        <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
-          <Icon icon="heroicons-solid:user" width="30" height="30" class="mr-2" />
-          {{ $t('about') }}
-        </h2>
         <AboutMe />
       </div>
     </div>
