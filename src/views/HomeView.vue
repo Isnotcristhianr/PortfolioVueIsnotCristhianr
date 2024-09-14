@@ -9,11 +9,10 @@ import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-  <!-- hero section -->
-  <HeroSection />
-
   <main>
     <div>
+      <!-- hero section -->
+      <HeroSection />
       <!-- experience -->
       <timeLine />
 
