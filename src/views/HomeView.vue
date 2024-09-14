@@ -17,7 +17,7 @@ import { Icon } from '@iconify/vue'
       <timeLine />
 
       <!-- proyects -->
-      <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
+      <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5 mt-5 mb-48 sm:mb-0">
 
         <!-- Horizontal -->
         <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
@@ -94,7 +94,7 @@ import { Icon } from '@iconify/vue'
           </div>
         </section>
         <!-- ver mas -->
-        <div class="flex justify-center mt-5">
+        <div class="flex justify-center">
           <router-link to="/proyectos" class="btn btn-secondary btn-wide btn-outline">
             {{ $t('seemore') }}
           </router-link>
@@ -102,7 +102,7 @@ import { Icon } from '@iconify/vue'
       </div>
 
       <!-- About Me -->
-      <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
+      <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5 ">
         <AboutMe />
       </div>
     </div>

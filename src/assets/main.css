@@ -33,10 +33,12 @@ section {
   position: sticky;
   height: 400px;
   top: 48px;
+
 }
 
 .stack-cards .card .container {
   display: flex;
+  height: 525px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -100,3 +102,18 @@ section {
     animation-range: exit-crossing 100% exit-crossing 125%;
   }
 }
+
+/* si la pantalla pequeña ajustar stackcard para que cumpla sizes */
+
+@media (max-width: 768px) {
+
+
+    .stack-cards .card {
+      flex: 1;
+      height: 100%;
+    }
+  
+    .stack-cards .card .container {
+      height: 100%;
+    }
+  }
