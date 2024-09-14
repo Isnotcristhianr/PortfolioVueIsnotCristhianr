@@ -5,3 +5,98 @@
 @tailwind components;
 @tailwind utilities;
 
+/* scroll cards */
+@keyframes move {
+  to {
+    transform: translateX(var(--max-scroll-distance));
+  }
+}
+
+section {
+  position: relative;
+  margin-bottom: 76px;
+  /* centrado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.stack-cards {
+  display: flex;
+  flex-direction: column;
+  view-timeline-name: --stack-cards;
+}
+
+.stack-cards .card {
+  position: sticky;
+  height: 400px;
+  top: 48px;
+}
+
+.stack-cards .card .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform-origin: center top;
+  animation: linear scale forwards;
+  animation-timeline: --stack-cards;
+}
+
+.stack-cards .card:nth-child(1) {
+  --max-scale: 0.7;
+  --final-bg: #555;
+  padding-top: 35px;
+  & .container {
+    animation-range: exit-crossing 0% exit-crossing 25%;
+  }
+}
+
+.stack-cards .card:nth-child(2) {
+  --max-scale: 0.8;
+  --initial-range: 20%;
+  --final-range: 50%;
+  --final-bg: #888;
+  padding-top: 50px;
+
+  & .container {
+    animation-range: exit-crossing 25% exit-crossing 50%;
+  }
+}
+
+.stack-cards .card:nth-child(3) {
+  --max-scale: 0.9;
+  --initial-range: 40%;
+  --final-range: 75%;
+  --final-bg: #bbb;
+  padding-top: 96px;
+
+  & .container {
+    animation-range: exit-crossing 50% exit-crossing 75%;
+  }
+}
+
+.stack-cards .card:nth-child(4) {
+  --max-scale: 1;
+  --initial-range: 60%;
+  --final-range: 100%;
+  --final-bg: #eee;
+  padding-top: 128px;
+
+  & .container {
+    animation-range: exit-crossing 75% exit-crossing 100%;
+  }
+}
+
+.stack-cards .card:nth-child(5) {
+  --max-scale: 1.1;
+  --final-bg: #fff;
+  padding-top: 160px;
+  margin-bottom: 2rem;
+
+  & .container {
+    animation-range: exit-crossing 100% exit-crossing 125%;
+  }
+}

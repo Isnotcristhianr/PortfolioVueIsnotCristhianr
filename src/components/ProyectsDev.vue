@@ -40,7 +40,7 @@ const techIcons: Record<string, string> = {
 </script>
 
 <template>
-  <div class="">
+  <div class="backdrop-blur-md rounded-xl px-4">
     <!-- check responsive -->
     <div class="bg-dark-800 rounded-lg p-6 mx-auto md:flex md:max-w-4xl">
       <!-- img -->
