@@ -69,9 +69,11 @@ const techIcons: Record<string, string> = {
           </span>
         </div>
         <!-- des -->
-        <p class="text-gray-400 text-sm mb-4">
-          {{ description }}
-        </p>
+         <div class="backdrop-blur-3xl p-2 rounded">
+           <p class="text-sm mb-4 font-medium">
+             {{ description }}
+           </p>
+         </div>
         <!-- Enlaces -->
         <div class="flex space-x-4">
           <a

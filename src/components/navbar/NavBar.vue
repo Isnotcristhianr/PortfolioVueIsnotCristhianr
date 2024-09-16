@@ -33,7 +33,7 @@ const toggleTheme = () => {
 
 <template>
   <div>
-    <div class="navbar glass fixed top-0 left-0 w-full z-10 rounded">
+    <div class="navbar backdrop-blur-md fixed top-0 left-0 w-full z-10 rounded">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost btn-circle">

@@ -94,8 +94,8 @@ import { Icon } from '@iconify/vue'
           </div>
         </section>
         <!-- ver mas -->
-        <div class="flex justify-center">
-          <router-link to="/proyectos" class="btn btn-secondary btn-wide btn-outline">
+        <div class="flex justify-center ">
+          <router-link to="/proyectos" class="btn btn-secondary btn-wide btn-outline mt-7">
             {{ $t('seemore') }}
           </router-link>
         </div>

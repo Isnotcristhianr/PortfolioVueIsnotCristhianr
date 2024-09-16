@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue';
-
+import { Icon } from '@iconify/vue'
 </script>
 <template>
   <div class="hero bg-base-200 min-h-screen p-10 pl-10 pr-10">
@@ -16,7 +15,8 @@ import { Icon } from '@iconify/vue';
         <div class="md:text-center lg:text-start">
           <div class="indicator">
             <span class="indicator-item badge badge-success"></span>
-            <a class="btn btn-xs btn-block btn-success btn-outline mb-3"
+            <a
+              class="btn btn-xs btn-block btn-success btn-outline mb-3"
               href="https://www.linkedin.com/in/isnotcristhianr/"
               target="_blank"
             >
@@ -37,14 +37,13 @@ import { Icon } from '@iconify/vue';
           {{ $t('presentation.outro') }}
         </p>
         <!-- btns -->
-        <a class="btn btn-neutral btn-outline"
-        href="mailto:isnotcristhian@gmail.com"
-        >
+        <a class="btn btn-neutral btn-outline" href="mailto:isnotcristhian@gmail.com">
           <Icon icon="material-symbols:mail-outline" width="24" height="24" />
           {{ $t('actionsHero.hire') }}
         </a>
         <!-- pdf cv acorde al idioma -->
-        <a class="btn btn-neutral btn-outline ml-2"
+        <a
+          class="btn btn-neutral btn-outline ml-2"
           v-if="$i18n.locale === 'es'"
           href="/resume/Cristhian Recalde Resume ES.pdf"
           download
@@ -52,7 +51,8 @@ import { Icon } from '@iconify/vue';
           <Icon icon="pepicons-pop:cv" width="24" height="24" />
           {{ $t('actionsHero.cv') }}
         </a>
-        <a class="btn btn-neutral btn-outline ml-2"
+        <a
+          class="btn btn-neutral btn-outline ml-2"
           v-else
           href="/resume/Cristhian Recalde Resume.pdf"
           download
@@ -60,12 +60,23 @@ import { Icon } from '@iconify/vue';
           <Icon icon="pepicons-pop:cv" width="24" height="24" />
           {{ $t('actionsHero.cv') }}
         </a>
-        <a class="btn btn-neutral btn-outline ml-2"
+        <a
+          class="btn btn-neutral btn-outline ml-2"
           href="https://github.com/Isnotcristhianr"
           target="_blank"
         >
-          <Icon icon="mdi:github" width="24" height="24" />    
-            </a>
+          <Icon icon="mdi:github" width="24" height="24" />
+        </a>
+      </div>
+    </div>
+    <!-- esquina inferior derecha, optimizado para chrome -->
+    <div class="hero-footer absolute bottom-4 right-4 p-2 backdrop-blur-md rounded-lg shadow-md">
+      <div class="flex items-center space-x-1">
+        <!-- icono -->
+        <Icon icon="mdi:google-chrome" width="24" height="24"/>
+        <label class="text-xs">
+        {{ $t('optimized') }}
+        </label>
       </div>
     </div>
   </div>

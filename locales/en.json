@@ -10,6 +10,7 @@
     "hire": "Hire me",
     "cv": "Download CV"
   },
+  "optimized": "Use Google Chrome for a better experience",
   "title1": "Work experience",
   "exp1":{
     "title": "Software Developer",
@@ -68,31 +69,30 @@
     "1": {
       "p1": "My name is",
       "p1on": "Cristhian Recalde",
-      "p2": " and I am",
-      "p2on": "Information Technology Engineer, Software Developer and Programming content creator",
-      "p3": "from Ecuador, Ibarra 🇪🇨. Specialized in the development of impactful mobile and web applications."
+      "p2": " and I am a",
+      "p2on": " Web/Mobile Software Developer",
+      "p3": " , also known as",
+      "p3on": "IsnotCristhian",
+      "p4": " this reflects my passion for growing as a professional in the development industry through content creation."
     },
     "2": {
-      "p1": "I have experience in",
-      "p1on": "Software Development, Mobile Development, Web Development, UX/UI Design, Content Creation, and more.",
-      "p2": "I am passionate about",
-      "p2on": "creating innovative solutions that improve the quality of life of people and the efficiency of processes."
+      "p1": "Since I started my professional career, I've had the opportunity to work on",
+      "p1on": "various projects and companies"
     },
     "3": {
-      "p1": "I am currently",
-      "p1on": "looking for new challenges and opportunities to continue growing professionally.",
-      "p2": "I am open to",
-      "p2on": "collaborating on projects, sharing knowledge and learning new technologies."
+      "p1": "Some of my achievements include winning",
+      "p1on": "an Honorable Mention in the TuApp2023 Tournament with my startup SwapMe",
+      "p2": " currently, I continue learning and improving, and I am part of the Google Developer community in Quito."
     },
     "4": {
-      "p1": "As a content creator, I have my YouTube channel in the category of",
+      "p1": "As a content creator, I have my YouTube channel in the",
       "p1on": "Software & Development",
-      "p2": ". My goal is to reduce the existing digital gap in my country",
+      "p2": " category. My goal is to reduce the digital divide in my country",
       "p2on": " Ecuador 🇪🇨 ",
-      "p3": "and contribute to improving the knowledge that many lack."
+      "p3": "and contribute to improving the knowledge that many do not have."
     },
     "5": {
-      "p1": "I am always looking for new challenges and opportunities to grow professionally. If you have a project in mind or just want to chat, don't hesitate to",
+      "p1": "I am always looking for new challenges and opportunities to grow professionally. If you have a project in mind or just want to chat, feel free to",
       "p1on": "contact me",
       "p2": ". I will be happy to hear from you."
     }
