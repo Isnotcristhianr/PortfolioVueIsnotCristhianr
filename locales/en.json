@@ -11,6 +11,11 @@
     "cv": "Download CV"
   },
   "optimized": "Use Google Chrome for a better experience",
+  "stats": {
+    "visitas": "Visits",
+    "proyectos": "Projects",
+    "lang": "Languages / Frameworks"
+  },
   "title1": "Work experience",
   "exp1":{
     "title": "Software Developer",

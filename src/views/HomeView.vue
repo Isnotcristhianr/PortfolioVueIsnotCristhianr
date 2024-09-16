@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection.vue'
 import timeLine from '../components/timeLine.vue'
 import ProyectsDev from '../components/ProyectsDev.vue'
 import AboutMe from '../components/AboutMe.vue'
+import StatsComponent from '../components/StatsComponent.vue'
 //icons
 import { Icon } from '@iconify/vue'
 </script>
@@ -13,12 +14,13 @@ import { Icon } from '@iconify/vue'
     <div>
       <!-- hero section -->
       <HeroSection />
+      <!-- stats -->
+      <StatsComponent />
       <!-- experience -->
       <timeLine />
 
       <!-- proyects -->
       <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5 mt-5 mb-48 sm:mb-0">
-
         <!-- Horizontal -->
         <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
           <Icon icon="heroicons-solid:code" width="30" height="30" class="mr-2" />
@@ -94,7 +96,7 @@ import { Icon } from '@iconify/vue'
           </div>
         </section>
         <!-- ver mas -->
-        <div class="flex justify-center ">
+        <div class="flex justify-center">
           <router-link to="/proyectos" class="btn btn-secondary btn-wide btn-outline mt-7">
             {{ $t('seemore') }}
           </router-link>
@@ -102,7 +104,7 @@ import { Icon } from '@iconify/vue'
       </div>
 
       <!-- About Me -->
-      <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5 ">
+      <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
         <AboutMe />
       </div>
     </div>

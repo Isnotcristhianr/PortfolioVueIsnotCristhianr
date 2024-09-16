@@ -32,6 +32,7 @@ app.use(router)
 
 //marquee
 app.use(Vue3Marquee)
+
 app.mount('#app')
 
 export default i18n

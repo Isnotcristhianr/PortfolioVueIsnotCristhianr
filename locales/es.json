@@ -11,6 +11,12 @@
     "cv": "Descargar CV"
   },
   "optimized": "Usa Google Chrome para una mejor experiencia",
+  "stats":{
+    "visitas": "Visitas",
+    "proyectos": "Proyectos",
+    "lang": "Lenguajes / Frameworks"
+
+  },
   "title1": "Experiencia laboral",
   "exp1": {
     "title": "Desarrollador de Software",
