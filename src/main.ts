@@ -15,7 +15,7 @@ import en from '../locales/en.json'
 import Vue3Marquee from 'vue3-marquee'
 
 const i18n = createI18n({
-    legacy: false,
+  legacy: false,
   locale: 'es', // Idioma por defecto
   fallbackLocale: 'en',
   messages: {
@@ -23,6 +23,12 @@ const i18n = createI18n({
     en
   }
 })
+
+//firebase
+import { firebaseApp } from './config/firebaseConfig'
+
+//vue fire
+import { VueFire } from 'vuefire'
 
 const app = createApp(App)
 app.use(i18n)
@@ -32,6 +38,12 @@ app.use(router)
 
 //marquee
 app.use(Vue3Marquee)
+
+//firebase
+app.use(VueFire, {
+  // imported above but could also just be created here
+  firebaseApp
+})
 
 app.mount('#app')
 

@@ -75,29 +75,33 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
+import { doc, getDoc, updateDoc, increment } from 'firebase/firestore'
+import { db } from '../config/firebaseConfig'
 
-const visitas = ref(90)
+const visitas = ref(0)
 
 onMounted(async () => {
   try {
-    const response = await fetch('https://portfoliodev.goatcounter.com/api/v0/count', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        // tu payload aquí
-      }),
-    });
+    // Referencia al documento de visitas
+    const visitasRef = doc(db, 'visitas', 'JkHSLw8wOc5J7QRrnKS3')
 
-    if (response.ok) {
-      // La API puede no devolver datos, así que simplemente aceptamos la respuesta
-      visitas.value = visitas.value + 1
+    // Obtener el documento actual
+    const docSnap = await getDoc(visitasRef)
+
+    if (docSnap.exists()) {
+      // Actualizar el contador en Firestore
+      await updateDoc(visitasRef, {
+        contador: increment(1)
+      })
+
+      console.log('¡Contador actualizado!')
+      // Mostrar el valor actualizado en la UI
+      visitas.value = docSnap.data().contador + 1
     } else {
-      console.error(`Error ${response.status}: ${response.statusText}`);
+      console.error('¡El documento no existe!')
     }
   } catch (error) {
-    console.error('Error:', error);
+    console.error('Error obteniendo o actualizando el contador:', error)
   }
-});
+})
 </script>
