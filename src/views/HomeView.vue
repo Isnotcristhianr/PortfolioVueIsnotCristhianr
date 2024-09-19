@@ -7,6 +7,8 @@ import AboutMe from '../components/AboutMe.vue'
 import StatsComponent from '../components/StatsComponent.vue'
 import CertificatesComponent from '../components/CertificatesComponent.vue'
 import BtnVerMas from '../components/BtnVerMas.vue'
+import ContactComponent from '../components/ContactComponent.vue'
+import FooterComponent from '../components/FooterComponent.vue'
 //icons
 import { Icon } from '@iconify/vue'
 </script>
@@ -138,9 +140,16 @@ import { Icon } from '@iconify/vue'
           <BtnVerMas route="/certificados"></BtnVerMas>
         </div>
         <!-- Contact -->
+          <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
+            <Icon icon="heroicons-solid:mail" width="30" height="30" class="mr-2" />
+            {{ $t('contact') }}
+          </h2>
+          <ContactComponent />
       </div>
 
-
+      
     </div>
+    <!-- Footer -->
+    <FooterComponent />
   </main>
 </template>

@@ -104,5 +104,15 @@
   "services": "Servicios",
   "certificates": "Certificados",
   "see": "Ver Certificado",
-  "contact": "Contacto"
+  "contact": "Contacto",
+  "contactme": {
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "footer": {
+    "rights": "Copyright © 2024 - Casi todos los derechos reservados",
+    "rights2":"Inspirado en el portafolio de midudev"
+  }
 }

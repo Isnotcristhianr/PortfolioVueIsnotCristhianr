@@ -107,5 +107,15 @@
   "services": "Services",
   "certificates": "Certificates",
   "see": "See Certificate",
-  "contact": "Contact"
+  "contact": "Contact",
+  "contactme": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "footer": {
+    "rights": "Copyright © 2024 - Almost all rights reserved",
+    "rights2": "Inspired by the portfolio of midudev"
+  }
 }
