@@ -103,9 +103,10 @@ import { Icon } from '@iconify/vue'
         </div>
       </div>
 
-      <!-- About Me -->
       <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
+        <!-- About Me -->
         <AboutMe />
+        <!-- Certificates -->
       </div>
     </div>
   </main>

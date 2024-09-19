@@ -20,8 +20,7 @@
         {{ $t('stats.visitas') }}
       </div>
       <div class="stat-value">
-        <CountUp :endVal="10000" :options="{ duration: 3 }" />
-
+        <Vue3Countup :endVal="10000" />
 
       </div>
       <div class="stat-desc">Since 2024</div>
@@ -76,6 +75,7 @@
 </template>
 
 <script setup lang="ts">
-import CountUp  from 'vue3-countup';
+import { Vue3Countup } from 'vue3-countup';
+
 
 </script>
