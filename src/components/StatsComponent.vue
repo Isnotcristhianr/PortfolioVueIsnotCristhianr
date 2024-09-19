@@ -20,8 +20,7 @@
         {{ $t('stats.visitas') }}
       </div>
       <div class="stat-value">
-        <Vue3Countup :endVal="10000" />
-
+        {{ visitas }}
       </div>
       <div class="stat-desc">Since 2024</div>
     </div>
@@ -75,7 +74,30 @@
 </template>
 
 <script setup lang="ts">
-import { Vue3Countup } from 'vue3-countup';
+import { ref, onMounted } from 'vue'
 
+const visitas = ref(90)
 
+onMounted(async () => {
+  try {
+    const response = await fetch('https://portfoliodev.goatcounter.com/api/v0/count', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        // tu payload aquí
+      }),
+    });
+
+    if (response.ok) {
+      // La API puede no devolver datos, así que simplemente aceptamos la respuesta
+      visitas.value = visitas.value + 1
+    } else {
+      console.error(`Error ${response.status}: ${response.statusText}`);
+    }
+  } catch (error) {
+    console.error('Error:', error);
+  }
+});
 </script>
