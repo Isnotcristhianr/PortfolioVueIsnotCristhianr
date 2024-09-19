@@ -68,7 +68,7 @@
       "description": "Statistical queries of products from different countries. Implementation of global searches with data. Deployment on Vercel."
     }
   },
-  "seemore": "See more Projects",
+  "seemore": "See more",
   "about": "About me",
   "ab": {
     "1": {
@@ -106,5 +106,6 @@
   "technologies": "Technologies",
   "services": "Services",
   "certificates": "Certificates",
+  "see": "See Certificate",
   "contact": "Contact"
 }

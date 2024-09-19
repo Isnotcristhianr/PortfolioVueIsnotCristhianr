@@ -6,7 +6,7 @@
     </h2>
     <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center gap-8">
       <div class="flex-1">
-        <div class="mockup-code ">
+        <div class="mockup-code">
           <div class="space-y-3 p-3 m-2">
             <p>
               {{ $t('ab.1.p1') }}

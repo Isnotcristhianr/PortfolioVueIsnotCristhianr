@@ -65,7 +65,7 @@
       "description": "Consultas estadísticas de productos de diferentes paises. Implementación de busquedas globales con datos. Despliegue en Vercel"
     }
   },
-  "seemore": "Ver más Proyectos",
+  "seemore": "Ver más",
   "about": "Sobre mí",
   "ab": {
     "1": {
@@ -103,5 +103,6 @@
   "technologies": "Tecnologías",
   "services": "Servicios",
   "certificates": "Certificados",
+  "see": "Ver Certificado",
   "contact": "Contacto"
 }
