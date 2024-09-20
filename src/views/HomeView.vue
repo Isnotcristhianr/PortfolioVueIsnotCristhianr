@@ -41,6 +41,7 @@ import { Icon } from '@iconify/vue'
                 altText="swapme"
                 githubUrl="https://github.com/Isnotcristhianr/SwapMe---Code-0"
                 previewUrl="https://play.google.com/store/apps/details?id=com.company.swapme&hl=es_EC"
+                type="app"
               />
             </div>
           </div>
@@ -54,6 +55,7 @@ import { Icon } from '@iconify/vue'
                 altText="spiccy"
                 githubUrl="https://github.com/Isnotcristhianr/spicy.github.io"
                 previewUrl="https://isnotcristhianr.me/spicy.github.io/"
+                type="web"
               />
             </div>
           </div>
@@ -67,6 +69,7 @@ import { Icon } from '@iconify/vue'
                 altText="gifSearch"
                 githubUrl="https://github.com/Isnotcristhianr/01-VueJS/tree/main/07_spa"
                 previewUrl="https://giftsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
+                type="web"
               />
             </div>
           </div>
@@ -80,6 +83,7 @@ import { Icon } from '@iconify/vue'
                 altText="gifSearch"
                 githubUrl="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
                 previewUrl="www.pucei.edu.ec:441/DirectorioAplicaciones/"
+                type="web"
               />
             </div>
           </div>
@@ -93,13 +97,14 @@ import { Icon } from '@iconify/vue'
                 altText="gifSearch"
                 githubUrl=""
                 previewUrl="https://gifsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
+                type="web"
               />
             </div>
           </div>
         </div>
       </section>
       <!-- ver mas -->
-      <BtnVerMas route="/proyectos"></BtnVerMas>
+      <BtnVerMas route="/projects"></BtnVerMas>
 
       <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
         <!-- About Me -->
@@ -137,7 +142,7 @@ import { Icon } from '@iconify/vue'
             link="https://drive.google.com/file/d/1SSqaYjPIGwO9LCkHOwUOZB4r7Yh6OIYE/view?usp=sharing"
           >
           </CertificatesComponent>
-          <BtnVerMas route="/certificados"></BtnVerMas>
+          <BtnVerMas route="/certificates"></BtnVerMas>
         </div>
         <!-- Contact -->
           <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">

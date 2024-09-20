@@ -7,8 +7,9 @@ interface ProjectProps {
   technologies: string[]
   imageUrl: string
   altText: string
-  githubUrl: string
-  previewUrl: string
+  githubUrl?: string
+  previewUrl?: string
+  type: string
 }
 
 defineProps<ProjectProps>()
@@ -35,7 +36,13 @@ const techIcons: Record<string, string> = {
   Hosting: 'vscode-icons:file-type-light-firebasehosting',
   React: 'logos:react',
   Next: 'ri:nextjs-fill',
-  ShadcnUI: 'simple-icons:shadcnui'
+  ShadcnUI: 'simple-icons:shadcnui',
+  Figma: 'logos:figma',
+  AdobeXd: 'simple-icons:adobexd',
+  Laravel: 'mdi:laravel',
+  Blade: 'logos:laravel',
+  NodeJs: 'logos:nodejs',
+  MongoDb: 'logos:mongodb'
 }
 </script>
 
@@ -68,12 +75,20 @@ const techIcons: Record<string, string> = {
             {{ tech }}
           </span>
         </div>
+        <!-- Type -->
+        <div class="items-center space-x-2 mb-4 hidden">
+          <span
+            class="bg-neutral-content text-base-100 text-sm px-3 py-2 rounded-lg flex items-center space-x-3"
+          >
+            {{ type }}
+          </span>
+        </div>
         <!-- des -->
-         <div class="backdrop-blur-3xl p-2 rounded">
-           <p class="text-sm mb-4 font-medium">
-             {{ description }}
-           </p>
-         </div>
+        <div class="backdrop-blur-3xl p-2 rounded">
+          <p class="text-sm mb-4 font-medium">
+            {{ description }}
+          </p>
+        </div>
         <!-- Enlaces -->
         <div class="flex space-x-4">
           <a

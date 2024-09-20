@@ -48,17 +48,69 @@
       "title": "Swapme - Aplicación de intercambio de Prendas de Vestir",
       "description": "Aplicación movil para intercambio de prendas de vestir. Implementación de servicios de autenticación, almacenamiento, etc. Despliegue en tiendas de aplicaciones Google Play Store"
     },
+    "2":{
+      "title": "Diseño UX/UI - App Nike",
+      "description": "Diseño de interfaz de usuario y experiencia de usuario para la aplicación Nike. Creación de prototipos y pruebas de usabilidad. Implementación de diseño responsivo y accesible."
+    },
+    "3":{
+      "title": "Nike App Rediseño - UI/UX",
+      "description": "Rediseño de la aplicación Nike. Implementación de diseño responsivo y accesible. Creación de prototipos y pruebas de usabilidad."
+    },
+    "4":{
+      "title": "Web Imbabura Candidatos",
+      "description": "Sistema de votación para la provincia de Imbabura. Implementación de votación por candidatos, almacenamiento de votos, etc. Despliegue en la web"
+    },
+    "5":{
+      "title": "Diigo - Landing Page",
+      "description": "Landing Page de la aplicación Diigo. Implementación de formulario de contacto, almacenamiento de correos, etc. Despliegue en la web"
+    },
     "6": {
       "title": "Spiccy - Healty Food Recipes",
       "description": "Pagina Web de recetas de comida saludable. Implementación de formulario de contacto, almacenamiento de recetas, etc. Despliegue en la web"
+    },
+    "7": {
+      "title": "WalkiDogs - WebApp de Paseo de Mascotas",
+      "description": "Aplicación web para el paseo de mascotas. Implementación de servicios de autenticación, almacenamiento, etc. Despliegue en la web"
+    },
+    "8": {
+      "title": "GifSearch - Api de Gifs",
+      "description": "Aplicación de busqueda de gifs. Implementación de busqueda de gifs, almacenamiento de gifs, etc. Despliegue en la web Vercel"
+    },
+    "9": {
+      "title": "CriptoCotizador - Api de Criptomonedas",
+      "description": "Aplicación de cotización de criptomonedas. Implementación de busqueda de criptomonedas, almacenamiento de cotizaciones, etc. Despliegue en la web Vercel"
+    },
+    "10":{
+      "title": "Pinia Store - Ecommerce",
+      "description": "Tienda en linea de productos de tecnología. Implementación de carrito de compras, busqueda de productos, etc. Despliegue en Vercel"
+    },
+    "11":{
+      "title": "Laravel Hotel - Sistema de Reservas",
+      "description": "Sistema de reservas de habitaciones de hotel. Implementación de reservas, busqueda de habitaciones, etc. Despliegue en servidor local"
+    },
+    "12":{
+      "title": "Cielo Verde Escuela de Español",
+      "description": "Sistema de gestión de estudiantes de la escuela de español Cielo Verde. Implementación de matriculas, pagos, etc. Despliegue en servidores web"
+    },
+    "13":{
+      "title": "Hotel Mongo DB",
+      "description": "Sistema de reservas de habitaciones de hotel. Implementación de reservas, busqueda de habitaciones, etc. Despliegue en servidor local"
     },
     "14": {
       "title": "Gestion Documental PUCE-I",
       "description": "Sistema de gestión documental para la Pontificia Universidad Católica del Ecuador - Ibarra. Implementación de reportes a estudiantes matriculados y egresados desde 1976 hasta 2023. Despliegue en servidores locales"
     },
+    "15":{
+      "title": "Pokedex - Api de Pokemon",
+      "description": "Aplicación de busqueda de pokemones. Implementación de busqueda de pokemones, almacenamiento de pokemones, etc. Despliegue en la web"
+    },
     "16": {
       "title": "Blog - Ideas y Tendencias",
       "description": "Blog de ideas y tendencias de cualquiero tema,. Implementación de Autenticacion, comentarios y subida de imagenes. Despliegue en FirebaseHosting"
+    },
+    "17": {
+      "title": "GDG Guayaquil - Desing UX/UI",
+      "description": "Diseño de interfaz de usuario y experiencia de usuario para la comunidad de Google Developers Group Guayaquil. Creación de prototipos y pruebas de usabilidad. Implementación de diseño responsivo y accesibilidad."
     },
     "25": {
       "title": "Venturex - Plataforma de Comercio Internacional",

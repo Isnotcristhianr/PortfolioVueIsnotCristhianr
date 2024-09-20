@@ -47,21 +47,69 @@
       "title": "Swapme - Clothing Exchange Application",
       "description": "Mobile application for the exchange of clothing. Implementation of authentication services, storage, etc. Deployment in Google Play Store application stores."
     },
+    "2": {
+      "title": "UX/UI Design - Nike App",
+      "description": "User interface and user experience design for the Nike application. Creation of prototypes and usability tests. Implementation of responsive and accessible design."
+    },
+    "3": {
+      "title": "Nike App Redesign - UI/UX",
+      "description": "Redesign of the Nike application. Implementation of responsive and accessible design. Creation of prototypes and usability tests."
+    },
+    "4": {
+      "title": "Web Imbabura Candidates",
+      "description": "Web platform for the management of candidates for the province of Imbabura. Implementation of candidate registration, search, etc. Deployment on local servers."
+    },
+    "5": {
+      "title": "Diigo - Landing Page",
+      "description": "Landing page for the Diigo application. Implementation of contact form, subscription, etc. Deployment on the web."
+    },
     "6": {
       "title": "Spiccy - Healty Food Recipes",
       "description": "Healthy food recipes website. Implementation of contact form, recipe storage, etc. Deployment on the web."
+    },
+    "7": {
+      "title": "WalkiDogs - Pet Walking WebApp",
+      "description": "Web application for pet walking services. Implementation of user registration, pet registration, etc. Deployment on local servers."
     },
     "8": {
       "title": "GifSearch - Gifs API",
       "description": "Gifs API for consumption by web and mobile applications. Implementation of RESTful services, use of Giphy Api. Deployment on Vercel."
     },
+    "9":{
+      "title": "CriptoCotizador - Cryptocurrency API",
+      "description": "Cryptocurrency API for consumption by web and mobile applications. Implementation of RESTful services, use of CoinGecko Api. Deployment on Vercel."
+    },
+    "10":{
+      "title": "Pinia Store - Ecommerce",
+      "description": "Online store of technology products. Implementation of shopping cart, product search, etc. Deployment on local vercel."
+    },
+    "11": {
+      "title": "Laravel Hotel - Booking System",
+      "description": "Hotel reservation system. Implementation of room reservation, user registration, etc. Deployment on local servers."
+    },
+    "12":{
+      "title":"Cielo Verde Spanish School",
+      "description":"Website for the Spanish school Cielo Verde. Implementation of contact form, course registration, etc. Deployment on web servers."
+    },
+    "13":{
+      "title": "Hotel Mongo DB",
+      "description": "Hotel room reservation system. Implementation of room reservation, user registration, etc. Deployment on local servers."
+    },
     "14": {
       "title": "Document Management PUCE-I",
       "description": "Document management system for the Pontifical Catholic University of Ecuador - Ibarra. Implementation of reports to students enrolled and graduated from 1976 to 2023. Deployment on local servers."
     },
+    "15":{
+      "title": "Pokedex - Pokemon API",
+      "description": "Pokemon search application. Implementation of pokemon search, pokemon storage, etc. Deployment on the web."
+    },
     "16": {
       "title": "Blog - Ideas and Trends",
       "description": "Blog of ideas and trends on any topic. Implementation of Authentication, comments and image uploads. Deployment on FirebaseHosting."
+    },
+    "17": {
+      "title": "GDG Guayaquill - Desing UX/UI",
+      "description": "Design of user interfaces and user experience for the GDG Guayaquil community. Creation of prototypes and usability tests. Implementation of responsive design and accessibility."
     },
     "25": {
       "title": "Venturex - International Trade Platform",
