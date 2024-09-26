@@ -177,6 +177,82 @@
       previewUrl="https://www.figma.com/proto/bPHe9EyLnHEnTocHXa614E/GDG-Gye-Webpage?page-id=0%3A1&node-id=10-2&node-type=canvas&viewport=241%2C133%2C0.04&t=Ma9yxLNQZ3SdlkrM-1&scaling=scale-down&content-scaling=fixed"
       type="desing"
     />
+    <ProyectsDev
+      :title="$t('proy.18.title')"
+      :description="$t('proy.18.description')"
+      :technologies="['Firebase']"
+      imageUrl="/imgs/proyectos/18.webp"
+      altText="blog"
+      type="database"
+    />
+    <ProyectsDev
+      :title="$t('proy.19.title')"
+      :description="$t('proy.19.description')"
+      :technologies="['Firebase']"
+      imageUrl="/imgs/proyectos/19.webp"
+      altText="blog"
+      previewUrl="https://blog-vue-49ffd.web.app/app"
+      type="database"
+    />
+    <ProyectsDev
+      :title="$t('proy.20.title')"
+      :description="$t('proy.20.description')"
+      :technologies="['Coidegniter', 'Php', 'Xampp', 'Apache', 'Mysql']"
+      imageUrl="/imgs/proyectos/20.webp"
+      altText="blog"
+      previewUrl="https://www.pucei.edu.ec:9199/creatibot2024/index.php"
+      type="web"
+    />
+    <ProyectsDev
+      :title="$t('proy.21.title')"
+      :description="$t('proy.21.description')"
+      :technologies="['Spark', 'Meta', 'Instagram', 'Facebook']"
+      imageUrl="/imgs/proyectos/21.webp"
+      altText="blog"
+      githubUrl="https://github.com/Isnotcristhianr/Filtro-Vintage-Instagram"
+      previewUrl="https://www.instagram.com/ar/466877215086875/"
+      type="desing"
+    />
+    <ProyectsDev
+      :title="$t('proy.22.title')"
+      :description="$t('proy.22.description')"
+      :technologies="['Spark', 'Meta', 'Instagram', 'Facebook']"
+      imageUrl="/imgs/proyectos/22.webp"
+      altText="blog"
+      githubUrl="https://github.com/Isnotcristhianr/Filtro-Indie-Instagram"
+      previewUrl="https://www.facebook.com/fbcameraeffects/tryit/164923048603691/"
+      type="desing"
+    />
+    <ProyectsDev
+      :title="$t('proy.23.title')"
+      :description="$t('proy.23.description')"
+      :technologies="['Spark', 'Meta', 'Instagram', 'Facebook']"
+      imageUrl="/imgs/proyectos/23.webp"
+      altText="blog"
+      githubUrl="https://github.com/Isnotcristhianr/Flitro-Glitch-Instagram"
+      previewUrl="https://www.instagram.com/ar/365607665600007/"
+      type="desing"
+    />
+    <ProyectsDev
+      :title="$t('proy.24.title')"
+      :description="$t('proy.24.description')"
+      :technologies="['Spark', 'Meta', 'Instagram', 'Facebook']"
+      imageUrl="/imgs/proyectos/24.webp"
+      altText="blog"
+      githubUrl="https://github.com/Isnotcristhianr/Filtro-Astigma-Instagram"
+      previewUrl="https://www.instagram.com/ar/587230052172601/"
+      type="desing"
+    />
+    <ProyectsDev
+      :title="$t('proy.25.title')"
+      :description="$t('proy.25.description')"
+      :technologies="['Next', 'Tailwind', 'ShadcnUI', 'Vercel']"
+      imageUrl="/imgs/proyectos/25.webp"
+      altText="gifSearch"
+      githubUrl=""
+      previewUrl="https://gifsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
+      type="web"
+    />
   </div>
   <FooterComponent />
 </template>

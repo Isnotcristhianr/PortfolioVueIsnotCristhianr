@@ -111,6 +111,34 @@
       "title": "GDG Guayaquill - Desing UX/UI",
       "description": "Design of user interfaces and user experience for the GDG Guayaquil community. Creation of prototypes and usability tests. Implementation of responsive design and accessibility."
     },
+    "18": {
+      "title": "Backend App Movil",
+      "description": "Mobile application for the exchange of clothing. Implementation of authentication services, storage, etc. Deployment in Firebase"
+    },
+    "19": {
+      "title": "Hosting Web Firebase",
+      "description": "Web hosting in Firebase. Implementation of authentication services, storage, etc. Deployment in Firebase"
+    },
+    "20": {
+      "title": "Creatibot - Web Incubators",
+      "description": "Web incubators. Implementation of registration and form services. Deployment on local"
+    },
+    "21": {
+      "title": "Filter Vintage Instagram",
+      "description": "Instagram filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+    },
+    "22": {
+      "title": "Filter Indie Instagram",
+      "description": "Instagram filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+    },
+    "23": {
+      "title": "Filter Glitch Instagram",
+      "description": "Instagram filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+    },
+    "24": {
+      "title": "Filter Astigma Instagram",
+      "description": "Instagram filter, implementation of image processing tools. Deployment on Instagram and Facebook"
+    },
     "25": {
       "title": "Venturex - International Trade Platform",
       "description": "Statistical queries of products from different countries. Implementation of global searches with data. Deployment on Vercel."

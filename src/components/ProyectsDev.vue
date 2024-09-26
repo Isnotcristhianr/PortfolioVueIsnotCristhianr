@@ -42,7 +42,14 @@ const techIcons: Record<string, string> = {
   Laravel: 'mdi:laravel',
   Blade: 'logos:laravel',
   NodeJs: 'logos:nodejs',
-  MongoDb: 'logos:mongodb'
+  MongoDb: 'logos:mongodb',
+  Xampp: 'logos:xampp',
+  Apache: 'logos:apache',
+  Mysql: 'logos:mysql',
+  Spark: 'logos:apache-spark',
+  Meta: 'logos:meta-icon',
+  Instagram: 'logos:instagram-icon',
+  Facebook: 'logos:facebook'
 }
 </script>
 

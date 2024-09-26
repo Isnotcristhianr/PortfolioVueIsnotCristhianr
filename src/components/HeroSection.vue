@@ -72,7 +72,6 @@ import { Icon } from '@iconify/vue'
     <!-- esquina inferior derecha, optimizado para chrome -->
     <div class="hero-footer absolute bottom-4 right-4 p-2 backdrop-blur-md rounded-lg shadow-md">
       <div class="flex items-center space-x-1">
-        <!-- icono -->
         <Icon icon="mdi:google-chrome" width="24" height="24"/>
         <label class="text-xs">
         {{ $t('optimized') }}

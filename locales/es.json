@@ -112,6 +112,34 @@
       "title": "GDG Guayaquil - Desing UX/UI",
       "description": "Diseño de interfaz de usuario y experiencia de usuario para la comunidad de Google Developers Group Guayaquil. Creación de prototipos y pruebas de usabilidad. Implementación de diseño responsivo y accesibilidad."
     },
+    "18": {
+      "title": "Backend App Movil",
+      "description": "Aplicación de intercambios. Implementación de servicios de autenticación, almacenamiento, etc. Despliegue en Firebase"
+    },
+    "19": {
+      "title": "Hosting Web Firebase",
+      "description": "Hosting de aplicaciones web en Firebase. Implementación de servicios de autenticación, almacenamiento, etc. Despliegue en Firebase"
+    },
+    "20": {
+      "title": "Creatibot - Web Incripciones",
+      "description": "Web de incripciones. Implementación de servicios de registro y formularios. Despliegue en local"
+    },
+    "21": {
+      "title": "Filtro Vintage Instagram",
+      "description": "Filtro de imagenes de Instagram, implementacion de tools de procesamiento de imágenes. Despliegue en Instagram y Facebook"
+    },
+    "22": {
+      "title": "Filtro Indie Instagram",
+      "description": "Filtro de imagenes de Instagram, implementacion de tools de procesamiento de imágenes. Despliegue en Instagram y Facebook"
+    },
+    "23": {
+      "title": "Filtro Glitch Instagram",
+      "description": "Filtro de imagenes de Instagram, implementacion de tools de procesamiento de imágenes. Despliegue en Instagram y Facebook"
+    },
+    "24": {
+      "title": "Filtro Astigma Instagram",
+      "description": "Filtro de imagenes de Instagram, implementacion de tools de procesamiento de imágenes. Despliegue en Instagram y Facebook"
+    },
     "25": {
       "title": "Venturex - Plataforma de Comercio Internacional",
       "description": "Consultas estadísticas de productos de diferentes paises. Implementación de busquedas globales con datos. Despliegue en Vercel"
