@@ -55,34 +55,33 @@ const techIcons: Record<string, string> = {
 
 <template>
   <div class="backdrop-blur-md rounded-xl px-4">
-    <!-- check responsive -->
-    <div class="bg-dark-800 rounded-lg p-6 mx-auto md:flex md:max-w-4xl">
-      <!-- img -->
-      <div class="md:w-2/3 m-5 shadow-2xl">
+    <!-- Responsive layout -->
+    <div class="bg-dark-800 rounded-lg p-6 mx-auto flex flex-col md:flex-row md:max-w-4xl">
+      <!-- Image container -->
+      <div class="md:w-1/2 m-5 shadow-2xl">
         <img
           :src="imageUrl"
           :alt="altText"
           class="rounded-lg w-full transition-transform duration-300 ease-in-out transform hover:scale-110"
         />
       </div>
-      <!-- Title -->
+      <!-- Content container -->
       <div class="md:w-1/2 md:pl-6 mt-3">
         <h3 class="text-2xl font-bold text-dark-100 mb-2">
           {{ title }}
         </h3>
-        <!-- Tecnologías con íconos -->
-        <div class="flex items-center space-x-2 mb-4">
+        <!-- Technologies with icons -->
+        <div class="flex flex-wrap items-center space-x-2 mb-4">
           <span
             v-for="(tech, index) in technologies"
             :key="index"
-            class="bg-neutral-content text-base-100 text-sm px-3 py-2 rounded-lg flex items-center space-x-3"
+            class="bg-neutral-content text-base-100 text-sm px-3 py-2 rounded-lg flex items-center space-x-3 mb-2"
           >
-            <!-- Mostrar ícono correspondiente si existe en el mapa de iconos -->
             <Icon v-if="techIcons[tech]" :icon="techIcons[tech]" class="w-5 h-5" />
             {{ tech }}
           </span>
         </div>
-        <!-- Type -->
+        <!-- Hidden type display -->
         <div class="items-center space-x-2 mb-4 hidden">
           <span
             class="bg-neutral-content text-base-100 text-sm px-3 py-2 rounded-lg flex items-center space-x-3"
@@ -90,14 +89,14 @@ const techIcons: Record<string, string> = {
             {{ type }}
           </span>
         </div>
-        <!-- des -->
-        <div class="backdrop-blur-3xl p-2 rounded">
-          <p class="text-sm mb-4 font-medium">
+        <!-- Description -->
+        <div class="bg-neutral-content p-2 rounded-lg m-3">
+          <p class="text-sm mb-4 font-medium text-base-100">
             {{ description }}
           </p>
         </div>
-        <!-- Enlaces -->
-        <div class="flex space-x-4">
+        <!-- Links -->
+        <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
           <a
             :href="githubUrl"
             target="_blank"

@@ -82,8 +82,8 @@ section {
 
 .stack-cards .card:nth-child(4) {
   --max-scale: 1;
-  --initial-range: 60%;
-  --final-range: 100%;
+  --initial-range: 40%;
+  --final-range: 80%;
   --final-bg: #eee;
   padding-top: 128px;
 
@@ -95,7 +95,7 @@ section {
 .stack-cards .card:nth-child(5) {
   --max-scale: 1.1;
   --final-bg: #fff;
-  padding-top: 160px;
+  padding-top: 220px;
   margin-bottom: 2rem;
 
   & .container {

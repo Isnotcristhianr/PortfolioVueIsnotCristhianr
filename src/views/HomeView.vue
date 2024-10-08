@@ -42,6 +42,7 @@ import { Icon } from '@iconify/vue'
                 githubUrl="https://github.com/Isnotcristhianr/SwapMe---Code-0"
                 previewUrl="https://play.google.com/store/apps/details?id=com.company.swapme&hl=es_EC"
                 type="app"
+                class="border-dashed border-2 border-base-content rounded-box "
               />
             </div>
           </div>
@@ -56,6 +57,7 @@ import { Icon } from '@iconify/vue'
                 githubUrl="https://github.com/Isnotcristhianr/spicy.github.io"
                 previewUrl="https://isnotcristhianr.me/spicy.github.io/"
                 type="web"
+                class="border-dashed border-2 border-base-content rounded-box"
               />
             </div>
           </div>
@@ -70,6 +72,7 @@ import { Icon } from '@iconify/vue'
                 githubUrl="https://github.com/Isnotcristhianr/01-VueJS/tree/main/07_spa"
                 previewUrl="https://giftsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
                 type="web"
+                class="border-dashed border-2 border-base-content rounded-box"
               />
             </div>
           </div>
@@ -84,6 +87,7 @@ import { Icon } from '@iconify/vue'
                 githubUrl="https://github.com/Isnotcristhianr/SistemaGestionDocumental"
                 previewUrl="www.pucei.edu.ec:441/DirectorioAplicaciones/"
                 type="web"
+                class="border-dashed border-2 border-base-content rounded-box"
               />
             </div>
           </div>
@@ -98,12 +102,14 @@ import { Icon } from '@iconify/vue'
                 githubUrl=""
                 previewUrl="https://gifsearch-l2r4fdbzd-isnotcristhianrs-projects.vercel.app/"
                 type="web"
+                class="border-dashed border-2 border-base-content rounded-box"
               />
             </div>
           </div>
         </div>
       </section>
       <!-- ver mas -->
+       <div class="p-8"></div>
       <BtnVerMas route="/projects"></BtnVerMas>
 
       <div class="max-w-screen-lg mx-auto pl-4 pr-4 pb-5">
@@ -145,14 +151,12 @@ import { Icon } from '@iconify/vue'
           <BtnVerMas route="/certificates"></BtnVerMas>
         </div>
         <!-- Contact -->
-          <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
-            <Icon icon="heroicons-solid:mail" width="30" height="30" class="mr-2" />
-            {{ $t('contact') }}
-          </h2>
-          <ContactComponent />
+        <h2 class="text-4xl font-bold text-start text-primary mt-10 mb-10 flex items-center">
+          <Icon icon="heroicons-solid:mail" width="30" height="30" class="mr-2" />
+          {{ $t('contact') }}
+        </h2>
+        <ContactComponent />
       </div>
-
-      
     </div>
     <!-- Footer -->
     <FooterComponent />
