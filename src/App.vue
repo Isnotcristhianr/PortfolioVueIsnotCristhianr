@@ -3,8 +3,7 @@
 import NavBar from './components/navbar/NavBar.vue'
 
 //analitics
-import { Analytics } from "@vercel/analytics/react"
-
+//import { Analytics } from "@vercel/analytics/react"
 
 
 </script>
