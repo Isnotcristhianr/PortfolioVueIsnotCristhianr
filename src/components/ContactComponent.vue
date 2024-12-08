@@ -1,75 +1,76 @@
 <script setup lang="ts">
-//icons
-import { Icon } from '@iconify/vue'
+import { ref } from 'vue';
+
+const formData = ref({
+  name: '',
+  email: '',
+  message: '',
+});
+
+const showModal = ref(false);
+const errorMessage = ref('');
+
+const handleSubmit = async (event: Event) => {
+  event.preventDefault();
+
+  // Enviar formulario con FormSubmit
+  try {
+    const response = await fetch('https://formsubmit.co/ajax/isnotcristhian@gmail.com', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData.value),
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      showModal.value = true;
+      formData.value = { name: '', email: '', message: '' }; // Limpia el formulario
+      setTimeout(() => {
+        showModal.value = false;
+      }, 3000);
+    } else {
+      throw new Error('Error en el servidor');
+    }
+  } catch (error) {
+    console.error('Error al enviar el correo:', error);
+    errorMessage.value = 'No se pudo enviar el mensaje. Inténtalo más tarde.';
+  }
+};
 </script>
 
 <template>
-  <div>
-    <form class="max-w-md mx-auto p-6" action="https://formspree.io/f/mgebzbgk" method="POST">
-      <!-- Email -->
-      <div class="flex items-center gap-2">
-        <Icon icon="material-symbols:mail" width="24" height="24" />
-        <div class="relative z-0 w-full mb-5 group">
-          <input
-            type="email"
-            name="userEmail"
-            id="userEmail"
-            class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-            placeholder=" "
-            required
-          />
-          <label
-            for="floating_email"
-            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-          >
-            {{ $t('contactme.email') }}
-          </label>
-        </div>
-      </div>
-      <div class="grid md:gap-6">
-        <!-- Nombre -->
-        <div class="flex items-center gap-2">
-          <Icon icon="bx:bxs-user" width="24" height="24" />
-          <div class="relative z-0 w-full mb-5 group">
-            <input
-              type="text"
-              name="nameUser"
-              id="nameUser"
-              class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-              placeholder=" "
-              required
-            />
-            <label
-              for="floating_first_name"
-              class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-            >
-              {{ $t('contactme.name') }}
-            </label>
-          </div>
-        </div>
-      </div>
-      <!-- Texto -->
-      <div class="flex items-center gap-2">
-        <Icon icon="bx:bxs-message" width="24" height="24" />
-        <div class="relative z-0 w-full mb-5 group">
-          <textarea
-            name="userText"
-            id="userText"
-            class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-            placeholder=" "
-            required
-          ></textarea>
-          <label
-            for="floating_message"
-            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-          >
-            {{ $t('contactme.message') }}
-          </label>
-        </div>
-      </div>
-      <button type="submit" class="btn btn-secondary w-full mt-5">
-        {{ $t('contactme.send') }}
-      </button>
-    </form>
-  </div>
+  <form @submit="handleSubmit" class="flex flex-col gap-4 w-full max-w-md mx-auto p-6">
+    <!-- Formulario -->
+    <input 
+      v-model="formData.name" 
+      placeholder="Nombre" 
+      required
+      class="p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
+    />
+    <input 
+      v-model="formData.email" 
+      placeholder="Correo" 
+      type="email" 
+      required
+      class="p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <textarea 
+      v-model="formData.message" 
+      placeholder="Mensaje" 
+      required
+      class="p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 min-h-[100px]"
+    ></textarea>
+    <button 
+      type="submit"
+      class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors"
+    >
+      Enviar
+    </button>
+
+    <p v-if="showModal" class="text-green-500 text-center">¡Mensaje enviado exitosamente!</p>
+    <p v-if="errorMessage" class="text-red-500 text-center">{{ errorMessage }}</p>
+  </form>
 </template>
