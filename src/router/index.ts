@@ -26,7 +26,14 @@ const router = createRouter({
       path: '/certificates',
       name: 'certificates',
       component: () => import('../views/CertificatesView.vue')
+    },
+    //ads.txt
+    {
+      path: '/ads.txt',
+      name: 'ads.txt',
+      component: () => import('../views/AdsTxtView.vue')
     }
+
     
   ]
 })
