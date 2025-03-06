@@ -29,7 +29,7 @@ const router = createRouter({
     },
     //ads.txt
     {
-      path: '/ads.txt',
+      path: '/app-ads.txt',
       name: 'ads.txt',
       component: () => import('../views/AdsTxtView.vue')
     }
